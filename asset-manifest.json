@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/todoentremanos/static/css/main.53df61f7.css",
+    "main.js": "/todoentremanos/static/js/main.f00a0021.js",
+    "static/media/FondoInicio.jpeg": "/todoentremanos/static/media/FondoInicio.b89d3148e2331b9e5f0b.jpeg",
+    "static/media/LogoTodoentreManos.png": "/todoentremanos/static/media/LogoTodoentreManos.e26e759f4c99b29d92b7.png",
+    "static/media/torno.jpg": "/todoentremanos/static/media/torno.937844da60569d38e435.jpg",
+    "static/media/slick.svg": "/todoentremanos/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/todoentremanos/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/todoentremanos/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/todoentremanos/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/todoentremanos/index.html",
+    "main.53df61f7.css.map": "/todoentremanos/static/css/main.53df61f7.css.map",
+    "main.f00a0021.js.map": "/todoentremanos/static/js/main.f00a0021.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53df61f7.css",
+    "static/js/main.f00a0021.js"
+  ]
+}
