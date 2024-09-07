@@ -3,7 +3,7 @@ import ItemDetailContainer from './componentes/ItemDetailContainer';
 import ItemList from './componentes/ItemList';
 import ItemListContainer from './componentes/ItemListContainer';
 import Navbar from './componentes/Navbar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Router, Route, Routes } from 'react-router-dom';
 import Nosotros from './componentes/Nosotros';
 import Contacto from './componentes/Contacto';
 import { CartContext, CartProvider } from './context/CartContext';
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <CartProvider>
-      <BrowserRouter>
+      <Router>
         <Navbar />
 
         <Routes>
@@ -33,7 +33,7 @@ function App() {
           <Route path='/checkout' element={<Checkout   />}  />
           </Routes>
           
-      </BrowserRouter>
+      </Router>
       </CartProvider>
     </div>
   );
