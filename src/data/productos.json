@@ -1,21 +1,7 @@
-[{"id":1,"title":"Salami - Genova","iamge":"http://dummyimage.com/200x100.png/5fa2dd/ffffff","price":895.33,"description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.","category":"LowCost","stock":10},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[{"id":1,"title":"Salami - Genova","iamge":"https://firebasestorage.googleapis.com/v0/b/carpishop-f21a7.appspot.com/o/WhatsApp%20Image%202024-08-27%20at%2017.57.27%20(1).jpeg?alt=media&token=9e3bf98e-8c27-4ab0-a390-e2f1f5c66ebf","price":895.33,"description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.","category":"LowCost","stock":10},
 {"id":2,
 "title":"Wine - Maipo Valle Cabernet",
-"iamge":"http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+"iamge":"https://firebasestorage.googleapis.com/v0/b/carpishop-f21a7.appspot.com/o/WhatsApp%20Image%202024-08-27%20at%2017.57.27%20(2).jpeg?alt=media&token=5d832e94-f640-4d66-897d-f7a8743bebc2",
 "price":638.2,
 "description":"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
 "category":"LowCost",

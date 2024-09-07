@@ -10,8 +10,12 @@ export const pedirDatos = ()=>{
 
 export const pedirItemPorId = (id)=>{
     return new Promise((resolve,reject)=>{
-        const item = data.find((el)=> el.id === id)
 
+        console.log("ID recibido:", id); // Para verificar el id recibido
+        console.log("Data:", data);
+
+
+        const item = data.find((el)=> el.id === Number(id))
         if(item){
             resolve(item)
         }else{
