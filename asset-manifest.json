@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/jmanauati/temmiramar.git/static/css/main.f693656d.css",
-    "main.js": "/jmanauati/temmiramar.git/static/js/main.60a1cd57.js",
-    "static/media/FondoInicio.jpeg": "/jmanauati/temmiramar.git/static/media/FondoInicio.b89d3148e2331b9e5f0b.jpeg",
-    "static/media/LogoTodoentreManos.png": "/jmanauati/temmiramar.git/static/media/LogoTodoentreManos.e26e759f4c99b29d92b7.png",
-    "static/media/torno.jpg": "/jmanauati/temmiramar.git/static/media/torno.937844da60569d38e435.jpg",
-    "static/media/slick.svg": "/jmanauati/temmiramar.git/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/jmanauati/temmiramar.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/jmanauati/temmiramar.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/jmanauati/temmiramar.git/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/jmanauati/temmiramar.git/index.html",
-    "main.f693656d.css.map": "/jmanauati/temmiramar.git/static/css/main.f693656d.css.map",
-    "main.60a1cd57.js.map": "/jmanauati/temmiramar.git/static/js/main.60a1cd57.js.map"
+    "main.css": "/temmiramar/static/css/main.7a06d08a.css",
+    "main.js": "/temmiramar/static/js/main.fba08c8f.js",
+    "static/media/FondoInicio.jpeg": "/temmiramar/static/media/FondoInicio.b89d3148e2331b9e5f0b.jpeg",
+    "static/media/LogoTodoentreManos.png": "/temmiramar/static/media/LogoTodoentreManos.e26e759f4c99b29d92b7.png",
+    "static/media/torno.jpg": "/temmiramar/static/media/torno.937844da60569d38e435.jpg",
+    "static/media/slick.svg": "/temmiramar/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/temmiramar/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/temmiramar/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/temmiramar/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/temmiramar/index.html",
+    "main.7a06d08a.css.map": "/temmiramar/static/css/main.7a06d08a.css.map",
+    "main.fba08c8f.js.map": "/temmiramar/static/js/main.fba08c8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f693656d.css",
-    "static/js/main.60a1cd57.js"
+    "static/css/main.7a06d08a.css",
+    "static/js/main.fba08c8f.js"
   ]
 }
