@@ -1,7 +1,7 @@
 {
 "homepage": "https://jmanauati.github.io/temmiramar",
-  "name": "new-project",
-  "version": "0.1.0",
+"name": "temmiramar",
+"version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-icons/font": "^1.0.36",
