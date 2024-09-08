@@ -12,7 +12,7 @@ function Inicio() {
     <div className='inicio'>
       <div className='portada-principal'>
         <p className='texto-portada'>Creamos productos inspirados en la naturaleza.</p>
-        <div className='boton-productos'>Ver Productos</div>
+        <div className='boton-productos'><a href="#productoslist">Ver Productos</a></div>
       </div>
       <div className='destacados'>
       <p className='destacado envio'><i class="material-icons icon">local_shipping</i> Envío en Miramar y alrededores</p>
@@ -22,13 +22,12 @@ function Inicio() {
       </div>
       <div className='foto-torno'>
       </div>
-      <div className='tarjetas-categorias'>
+      <ReviewsCarousel />
+      <div className='tarjetas-categorias' id='productoslist'>
         <ItemListContainer />
       </div>
       <div className='footer'>
-      <ReviewsCarousel />
         <Footer />
-        
       </div>
     </div>
   )

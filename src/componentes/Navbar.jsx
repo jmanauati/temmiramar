@@ -9,7 +9,7 @@ function Navbar() {
       <ul className='menu'>
         <li><Link to="/" className='menu-Link'>Inicio</Link></li>
         <li><Link to="/nosotros" className='menu-Link'>Nosotros</Link></li>
-        <li><Link to="/productos" className='menu-Link'>Premium</Link></li>
+        <li><Link to="#productoslist" className='menu-Link'>Productos</Link></li>
         <li><Link to="/contacto" className='menu-Link'>Contacto</Link></li>
         <li><CartWidget /></li>
       </ul>
