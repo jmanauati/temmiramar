@@ -4,6 +4,7 @@ import TarjetaCategoría from './TarjetaCategoría'
 import FotoTarjeta from '../imagenes/logo-pequeño2.png'
 import Footer from './Footer'
 import ReviewsCarousel from './Reviews'
+import ItemListContainer from './ItemListContainer'
 
 
 function Inicio() {
@@ -21,27 +22,8 @@ function Inicio() {
       </div>
       <div className='foto-torno'>
       </div>
-      
-      <h2 className='titulo-categorias'>
-        Categorías Destacadas
-      </h2>
       <div className='tarjetas-categorias'>
-        <TarjetaCategoría
-        imagen={FotoTarjeta}
-        textoBoton='Decoracion'
-        />
-        <TarjetaCategoría
-        imagen={FotoTarjeta}
-        textoBoton='Tejidos'
-        />
-        <TarjetaCategoría
-        imagen={FotoTarjeta}
-        textoBoton='Para el Jardin'
-        />
-        <TarjetaCategoría
-        imagen={FotoTarjeta}
-        textoBoton='Para la familia'
-        />
+        <ItemListContainer />
       </div>
       <div className='footer'>
       <ReviewsCarousel />

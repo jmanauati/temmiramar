@@ -3,7 +3,7 @@ import { toCapital } from "../helpers/toCapital"
 
 function ItemList({productos, titulo}) {
   return (
-    <div>
+    <div className="contenedor-productos">
       <h2>{toCapital(titulo)}</h2>
       <div className="productos">
         {productos.map((prod)=>{

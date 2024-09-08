@@ -60,10 +60,13 @@ h2{
     font-size: 30px;
     font-weight: 100;
 }
-
+.contenedor-productos{
+    width: 100vw;
+    margin-left: 50px;
+}
 .productos{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px,3fr));
     gap: 10px;
     background-color: #e0ecde;
 
@@ -117,6 +120,7 @@ padding: 5px;
 .item-img{
     width: 100%;
     height: auto;
+    max-height: 400px;
 }
 
 /* ITEM DETAILS */
@@ -125,7 +129,7 @@ padding: 5px;
 }
 
 .img-detalle{
-    height: 140px;
+    height: 100px;
     width: auto;
     margin: 15px;
 }
@@ -135,7 +139,7 @@ padding: 5px;
 }
 
 .titulo-detalle{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .descripcion-detalle{
@@ -296,11 +300,21 @@ button{
 
 .tarjetas-categorias{
     display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    align-self: center;
+    padding-bottom: 100px;
+}
+
+.grid-productos{
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-self: center;
     padding-bottom: 100px;
 }
+
+.producto-item{}
 
 .contenedor-tarjeta{
     display: flex;
