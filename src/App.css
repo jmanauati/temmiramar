@@ -243,7 +243,7 @@ button{
     top: 15dvh;
     left: 0;
     width: 100%;
-    height: 102%;
+    height: 60%;
     background-color: #6f826c;
     opacity: 0.4;
     background-size: cover;
@@ -253,7 +253,7 @@ button{
 .texto-portada{
     color: #fff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     align-items: center;
     margin: 70px 20px;
 }
