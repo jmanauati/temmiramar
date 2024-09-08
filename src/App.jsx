@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <CartProvider>
-      <Router>
+      <HashRouter>
         <Navbar />
 
         <Routes>
@@ -33,7 +33,7 @@ function App() {
           <Route path='/checkout' element={<Checkout   />}  />
           </Routes>
           
-      </Router>
+      </HashRouter>
       </CartProvider>
     </div>
   );
