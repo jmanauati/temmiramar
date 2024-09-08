@@ -230,7 +230,7 @@ button{
 .portada-principal{
     background-image: url('imagenes/FondoInicio.jpeg');
     background-size: cover;
-    height: 100dvh;
+    height: 60dvh;
     object-fit: cover;
     opacity: .7;
     display: flex;
