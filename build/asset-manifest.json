@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/temmiramar/static/css/main.7a06d08a.css",
-    "main.js": "/temmiramar/static/js/main.ccab4559.js",
+    "main.js": "/temmiramar/static/js/main.c4dc8a45.js",
     "static/media/FondoInicio.jpeg": "/temmiramar/static/media/FondoInicio.b89d3148e2331b9e5f0b.jpeg",
     "static/media/LogoTodoentreManos.png": "/temmiramar/static/media/LogoTodoentreManos.e26e759f4c99b29d92b7.png",
     "static/media/torno.jpg": "/temmiramar/static/media/torno.937844da60569d38e435.jpg",
@@ -11,10 +11,10 @@
     "static/media/slick.woff": "/temmiramar/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/temmiramar/index.html",
     "main.7a06d08a.css.map": "/temmiramar/static/css/main.7a06d08a.css.map",
-    "main.ccab4559.js.map": "/temmiramar/static/js/main.ccab4559.js.map"
+    "main.c4dc8a45.js.map": "/temmiramar/static/js/main.c4dc8a45.js.map"
   },
   "entrypoints": [
     "static/css/main.7a06d08a.css",
-    "static/js/main.ccab4559.js"
+    "static/js/main.c4dc8a45.js"
   ]
 }
