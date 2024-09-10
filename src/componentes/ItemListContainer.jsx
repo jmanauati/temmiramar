@@ -21,8 +21,11 @@ function ItemListContainer() {
     },[category,titulo])
 
   return (
+    <div className='productos-gral'>
+    <h2>Creaciones</h2>
     <div className='grid-productos'>
-        <ItemList productos={productos} titulo={titulo} />
+        <ItemList productos={productos} />
+    </div>
     </div>
   )
 }

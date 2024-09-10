@@ -12,7 +12,7 @@ function Contacto() {
     <div className='contacto'>
         <h1 className='title-formulario'>Contacto</h1>
         <p className="texto-contacto">Contactanos a través de Instagram! Con gusto resolveremos tus inquietudes. </p>
-        <button className="btn-contacto" ><a href="https://www.instagram.com/todoentremanos/" target="_blank">Enviar mensaje a Todo Entre Manos</a></button>
+        <a href="https://www.instagram.com/todoentremanos/" target="_blank"><button className="btn-contacto" >Enviar mensaje a Todo Entre Manos</button></a>
 
 
       {/* 

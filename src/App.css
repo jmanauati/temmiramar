@@ -53,13 +53,11 @@ li > a {
 !ITEM LIST */
 
 h2{
-    justify-content: center;
-    align-items: center;
     padding: 20px;
     margin: 1% 40%;
     color: #6f826c;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 100;
 }
 .contenedor-productos{
     width: 100vw;
@@ -70,8 +68,26 @@ h2{
     grid-template-columns: repeat(auto-fill, minmax(300px,3fr));
     gap: 10px;
     background-color: #e0ecde;
-
 }
+
+
+
+
+.productos-gral {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centra el texto dentro del contenedor */
+  }
+  
+  /* Estilo para el título h2 dentro del contenedor de productos */
+  .productos-gral h2 {
+    margin: 0; /* Elimina márgenes automáticos */
+    padding: 20px; /* Espaciado alrededor del título */
+    color: #6f826c; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto */
+    font-weight: 500; /* Peso de la fuente */
+  }
 
 /* ITEM */
 
@@ -125,6 +141,25 @@ padding: 5px;
     height: auto;
     max-height: 250px;
 }
+
+.producto-item .slick-prev{
+    width: 20px; /* Ajusta el tamaño de las flechas */
+    height: 30px;
+    border-radius: 50%; /* Forma redonda */
+    z-index: 10; /* Asegúrate de que estén encima del contenido */
+    left: 0px; /* Ajusta la posición a la izquierda */
+    display: none;
+
+}
+
+ .producto-item .slick-next {
+    width: 20px; /* Ajusta el tamaño de las flechas */
+    height: 30px;
+    border-radius: 50%; /* Forma redonda */
+    z-index: 10; /* Asegúrate de que estén encima del contenido */
+    right: 15px; /* Ajusta la posición a la izquierda */
+
+  }
 
 /* ITEM DETAILS */
 .producto-detalle{
@@ -191,10 +226,12 @@ button{
 
 button:hover{
     background-color: #fff;
-    color: #48e;
-    border: 2px solid #48e;
+    color: #485a46;
+    border: 2px solid #485a46;
 }
-
+button a:hover{
+    color: #485a46;
+}
 /* FORMULARIO */
 
 .contacto{
@@ -340,7 +377,9 @@ button{
     padding-bottom: 100px;
 }
 
-.producto-item{}
+.producto-gral{
+    display: gl;
+}
 
 .contenedor-tarjeta{
     display: flex;
@@ -404,13 +443,23 @@ button{
 }
 
 .reviews-carousel {
-height: auto;
-width: 100%;
-margin: 0 auto;
-text-align: center;
-background-color: #fff;
-margin-bottom: 40px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 40px;
 }
+
+/* Estilo del título h2 dentro del carrusel de reseñas */
+.reviews-carousel h2 {
+    margin: 0; /* Elimina márgenes automáticos que pueden desplazar el título */
+    padding: 20px; /* Espaciado alrededor del título */
+    color: #6f826c; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto */
+    font-weight: 500; /* Peso de la fuente */
+}
+
 
 .review {
 padding: 20px;
