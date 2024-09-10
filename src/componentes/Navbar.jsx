@@ -5,7 +5,9 @@ import logo from '../imagenes/LogoTodoentreManos.png'
 function Navbar() {
   return (
     <nav className='navbar'>
-      <img className='logoInicio'   src={logo} alt="logo Maria Jose" />
+      <a className="logoInicio"  href="https://jmanauati.github.io/temmiramar/#/">
+  <img className="logoInicio" src={logo} alt="logo Maria Jose" />
+</a>
       <ul className='menu'>
         <li><Link to="/" className='menu-Link'>Inicio</Link></li>
         <li><Link to="/nosotros" className='menu-Link'>Nosotros</Link></li>
